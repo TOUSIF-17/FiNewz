@@ -6,6 +6,14 @@
     <title>FiNewz</title>
     <link rel="stylesheet" href="style.css">
     <style>
+         body{
+                background-image: url('assets/add.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+        </style>
+        <style>
         @import url('https://fonts.googleapis.com/css2?family=Doto:wght@600&family=Poppins:ital,wght@0,600&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
@@ -41,6 +49,86 @@
             <li><a href="index.html">About</a></li>
         </ul>
     </nav>
+    </div>
+    <style>
+        .container {
+            border: 2px solid black;
+            display: grid;
+            grid-template-areas: "nav lav bav"
+                "side article mticle"
+                "aa bb cc"
+                "footer sitter cheater";
+        }
+
+        .item {
+            border: 2px solid rgb(5, 5, 5);
+            height: 55px;
+        }
+
+        .item-1 {
+            grid-area: nav;
+           
+        }
+
+        .item-2 {
+            grid-area: lav;
+        }
+
+        .item-3 {
+            grid-area: bav;
+
+        }
+
+        .item-4 {
+            grid-area: side;
+        }
+
+        .item-5{
+            grid-area: article;
+        }
+
+        .item-6{
+            grid-area: mticle;
+        }
+
+        .item-7{
+            grid-area: aa;
+        }
+        .item-8{
+            grid-area: bb;
+        }
+        .item-9{
+            grid-area: cc;
+        }
+        .item-10{
+            grid-area: footer;
+        }
+        .item-11{
+            grid-area: sitter;
+        }
+        .item-12{
+            grid-area: cheater;
+        }
+        
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item item-1">1</div>
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+        <div class="item item-4">4</div>
+        <div class="item item-5">5</div>
+        <div class="item item-6">6</div>
+        <div class="item item-7">7</div>
+        <div class="item item-8">8</div>
+        <div class="item item-9">9</div>
+        <div class="item item-10">10</div>
+        <div class="item item-11">11</div>
+        <div class="item item-12">12</div>
+        
     </div>
 
     <h1 style="text-align: center;">Your destination for Financial Insights is here.</h1>
