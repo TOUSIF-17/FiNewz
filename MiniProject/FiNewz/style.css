@@ -62,7 +62,7 @@ input,button {
     height: 50px;
     display: flex;
     justify-content: left;
-    background-color: rgb(240, 229, 245);
+    background-color: #f0e5f5;
 }
 
 li{
