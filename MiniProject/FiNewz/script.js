@@ -11,7 +11,7 @@ function getSymbolPrice(symbol) {
             throw new Error("API key is not set or is undefined.");
         }
 
-        console.log("Using API Key:", api_key.apiKey);
+        
 
         const finnewzClient = new finnewz.DefaultApi();
         finnewzClient.quote(symbol, (err, data, response) => {
